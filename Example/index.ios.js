@@ -1,5 +1,6 @@
-const React = require('react-native');
-const { AppRegistry, } = React;
-const Example = require('./Example');
-
+import React from 'react';
+import {
+  AppRegistry
+} from 'react-native';
+import Example from './Example';
 AppRegistry.registerComponent('Example', () => Example);

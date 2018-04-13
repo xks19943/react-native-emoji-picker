@@ -1,5 +1,4 @@
 import React, {
-  PropTypes,
   Component,
 } from 'react'
 
@@ -9,6 +8,7 @@ import {
   View,
   TouchableHighlight,
 } from 'react-native'
+import PropTypes from 'prop-types';
 
 import { EmojiOverlay } from '../'
 // var {EmojiOverlay} = require('../')

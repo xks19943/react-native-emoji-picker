@@ -7,6 +7,11 @@
     "type": "git",
     "url": "git@github.com:yonahforst/react-native-emoji-picker.git"
   },
+  "scripts": {
+    "configureJPush": "node node_modules/jpush-react-native/JPushConfiguration.js",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
   "keywords": [
     "react-native",
     "react-component",
@@ -15,14 +20,19 @@
     "emoji-picker"
   ],
   "peerDependencies": {
-    "react": "^15.2.0",
-    "react-native": "^0.30.0",
-    "prop-types": "^15.6.0"
+    "prop-types": "^15.6.0",
+    "react": "16.0.0",
+    "react-native": "0.51.0"
+  },
+  "devDependencies": {
+    "react": "16.0.0",
+    "react-native": "0.51.0"
   },
   "dependencies": {
-    "emoji-datasource": "^2.4.4",
+    "emoji-datasource": "^4.0.3",
     "lodash": "^4.11.1",
     "prop-types": "^15.6.0",
+    "react-native-scrollable-tab-view": "^0.8.0",
     "string.fromcodepoint": "^0.2.1"
   },
   "author": "Yonah Forst <yonaforst@hotmail.com> (https://github.com/yonahforst)",
